@@ -1,0 +1,31 @@
+{
+  "name": "knab-ext-pack-web",
+  "displayName": "Knab extension pack for Web development",
+  "description": "Recommended extensions to do Web Development in Knab",
+  "publisher": "knabnl",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Jaime Vega",
+    "email": "jaime.vega@knab.nl"
+  },
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/knabnl/knab-vscode-ext-pack-web.git"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "coenraads.bracket-pair-colorizer-2",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "oderwat.indent-rainbow",
+    "wix.vscode-import-cost"
+  ]
+}
